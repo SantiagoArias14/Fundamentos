@@ -145,5 +145,5 @@ print(Lenguaje.capitalize()) # Esto imprime el valor de la cadena en mayuscula
 print(Lenguaje.upper()) # Imprime la variable de cadena en mayuscula
 print(Lenguaje.count("a")) # Imprime cuantos valores hay repetidos en la variable
 print(Lenguaje.isnumeric()) # Imprime si la variable es un numero o no
-print('30303030'.isnumeric())
-print(Lenguaje.lower())
+print('30303030'.isnumeric()) 
+print(Lenguaje.lower()) # Imprime la variable en minusculas
