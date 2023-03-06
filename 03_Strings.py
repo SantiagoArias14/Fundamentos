@@ -42,6 +42,7 @@ print('-------------------------------------------------------------------------
 #Concatenar informacion de una cadena
 
 print(My_Cadena +". "+ My_Cadena2)
+print(My_Cadena + ', ' + My_Cadena3 + ' y tengo 18 años')
 
 # Concatenar cadenas ya creadas con nuevas cadenas hechas en el print()
 
@@ -79,8 +80,8 @@ print('-------------------------------------------------------------------------
 
 # Formatar de un String
 
-# %s -> Valores de texto
-# %d -> Valores enteros
+# %s -> Valores de texto -> Value String
+# %d -> Valores enteros 
 # %f -> Valores flotantes
 
 name, surname, age, weight = 'Santiago', 'Arias', 20, 76.5
@@ -88,11 +89,15 @@ name, surname, age, weight = 'Santiago', 'Arias', 20, 76.5
 print("Mi nombre es: "+name+ " " +surname+ " y mi edad es:", age, "años", weight, "kilos") 
 
 print("Mi nombre es: %s %s y mi edad es %d años y peso %f kilos" %(name, surname, age, weight))
+print('Yo tengo %d años y me llamo %s %s' %(age, name, surname))
+
 print("Mi nombre es: {} {}. Mi edad es {} años y peso {} kilos".format(name, surname, age, weight))
+print('Yo tengo {} años y me llamo {} {}'.format(age, name, surname))
 
 #Inferir informacion
 
 print(f"Mi nombre es: {name} {surname}. Mi edad es {age} años y peso {weight} kilos")
+print(f"Yo tengo {age} y me llamo: {name} {surname}")
 
 ('----------------------------------------------------------------------------------------------------------')
 
@@ -143,7 +148,7 @@ print('-------------------------------------------------------------------------
 
 print(Lenguaje.capitalize()) # Esto imprime el valor de la cadena en mayuscula
 print(Lenguaje.upper()) # Imprime la variable de cadena en mayuscula
-print(Lenguaje.count("a")) # Imprime cuantos valores hay repetidos en la variable
+print(Lenguaje.count("J")) # Imprime cuantos valores hay repetidos en la variable
 print(Lenguaje.isnumeric()) # Imprime si la variable es un numero o no
-print('30303030'.isnumeric()) 
+print('numero'.isnumeric()) 
 print(Lenguaje.lower()) # Imprime la variable en minusculas
